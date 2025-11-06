@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWTOR Class Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/republic.js" defer></script>
+</head>
+<body>
+    <h1> Star Wars The Old Republic <br>Class List</h1>
+    <p>Choose Your Destiny</p>
+    <div class="container">
+        <div class="box"><a href="republic.html">Republic</a></div>
+        <div class="box"><a href="empire.html">Empire</a></div>
+    </div>
+
+    <form id="swtor_form">
+        <label for="republic_classes">Choose a Republic Class:</label>
+        <select name="republic_classes" id="republic_classes" onchange="displaySelectedValue(this.va)">
+            <option value="">--Please choose a Republic Class--</option>
+            <option value="Jedi Consular">Jedi Consular</option>
+            <option value="Jedi Knight">Jedi Knight</option>
+            <option value="Smuggler">Smuggler</option>
+            <option value="Trooper">Trooper</option>
+        </select>
+    </form>
+    <p id="selectionResult"></p>
+    <div id="dataBlock" style="margin-top: 20px; border: 1px solid #ccc; padding: 10px;">
+        
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWTOR Class Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/empire.js" defer></script>
+</head>
+<body>
+    <h1> Star Wars The Old Republic <br>Class List</h1>
+    <p>Choose Your Destiny</p>
+    <div class="container">
+        <div class="box"><a href="republic.html">Republic</a></div>
+        <div class="box"><a href="empire.html">Empire</a></div>
+    </div>
+
+    <form id="swtor_form">
+        <label for="empire_classes">Choose an Imperial Class:</label>
+        <select name="empire_classes" id="empire_classes" onchange="displaySelectedValue(this.value)">
+            <option value="">--Please choose an Imperial Class--</option>
+            <option value="Bounty Hunter">Bounty Hunter</option>
+            <option value="Imperial Agent">Imperial Agent</option>
+            <option value="Sith Inquisitor">Sith Inquisitor</option>
+            <option value="Sith Warrior">Sith Warrior</option>
+        </select>
+    </form>
+    <p id="selectionResult"></p>
+    <div id="dataBlock" style="margin-top: 20px; border: 1px solid #ccc; padding: 10px;">
+
+    </div>
+</body>
+</html>

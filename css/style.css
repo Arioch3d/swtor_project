@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(13, 6, 6);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: #efd009;
+    text-align: center;
+}
+
+p{
+    color: #efd009;
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: #efd009;
+}
+select{
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+.box{
+    flex: 1;
+    border: 1px solid #efd009;
+    padding: 1px;
+    text-align: center;
+    
+}
+#classes{
+    text-align: center;
+    font-size: 24px;
+}
